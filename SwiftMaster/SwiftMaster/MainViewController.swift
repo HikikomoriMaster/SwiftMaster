@@ -25,6 +25,23 @@ class MainViewController: UIViewController {
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
     }
+    
+    // SortViewControllerへ遷移
+    @IBAction func showSortViewController(sender: AnyObject) {
+        
+        // Storyboardのインスタンスを作成
+        // メモ：UIStoryboard(name: "Storyboardの名前", bundle: NSBundle?)
+        let sortStoryboard: UIStoryboard = UIStoryboard(name: "Sort", bundle: nil)
+        let sort: SortViewController = sortStoryboard.instantiateInitialViewController() as! SortViewController
+        
+        // 画面遷移をクロスディゾルブに設定
+        sort.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
+        self.presentViewController(sort, animated: true, completion: nil)
+
+    }
+    
+    
+    
 
 }
 
