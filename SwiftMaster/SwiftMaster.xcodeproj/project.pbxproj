@@ -12,6 +12,7 @@
 		DBC156321D8EC2D9006F425E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC156301D8EC2D9006F425E /* Main.storyboard */; };
 		DBC156341D8EC2D9006F425E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC156331D8EC2D9006F425E /* Assets.xcassets */; };
 		DBC156371D8EC2D9006F425E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC156351D8EC2D9006F425E /* LaunchScreen.storyboard */; };
+		DBC1563F1D8EC366006F425E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1563E1D8EC366006F425E /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DBC156331D8EC2D9006F425E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC156361D8EC2D9006F425E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBC156381D8EC2D9006F425E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC1563E1D8EC366006F425E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				DBC1562C1D8EC2D9006F425E /* AppDelegate.swift */,
+				DBC1563E1D8EC366006F425E /* MainViewController.swift */,
 				DBC1562E1D8EC2D9006F425E /* ViewController.swift */,
 				DBC156301D8EC2D9006F425E /* Main.storyboard */,
 				DBC156331D8EC2D9006F425E /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC1563F1D8EC366006F425E /* MainViewController.swift in Sources */,
 				DBC1562F1D8EC2D9006F425E /* ViewController.swift in Sources */,
 				DBC1562D1D8EC2D9006F425E /* AppDelegate.swift in Sources */,
 			);
